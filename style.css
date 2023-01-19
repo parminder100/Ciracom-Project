@@ -8,6 +8,9 @@ body {
 }
 :root {
     --btn-color: #1C3F74;
+    --product-categories-color: #0A0A0A;
+    --microsoft-product-color: #7D7D7D;
+    --shop-now-btn: #1C3F74;
 }
 /* Header Start */
 header {
@@ -167,4 +170,262 @@ header {
     border: 1px dashed #000000;
     border-radius: 500px;
 }
+.everything-in-cloud-service{
+    position: absolute;
+    width: 97.47px;
+    height: 123.78px;
+    background: #F6F8FB;
+    box-shadow: 0px 4px 80px rgba(236, 210, 154, 0.08);
+    border-radius: 20px;
+    top: 8px;
+    left: -39px;
+}
+.everything-in-cloud-service-content{
+    text-align: center;
+    position: absolute;
+    padding: 20px 8.47px 19.78px 10px;
+}
+.everything-in-cloud-service-content p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #28303F;
+}
+.everything-in-cloud-service-content img{
+    margin-bottom: 10px;
+}
+.self-serve-service{
+    top: 233px;
+    width: 119.13px;
+    height: 101.58px;
+    left: -77px;
+}
+.self-service-content{
+    text-align: center;
+    position: absolute;
+    padding: 18.47px 8.55px 14.78px 8.55px;
+}
+.support-service{
+    width: 149px;
+    height: 155px;
+    left: 320px;
+}
+.support-service-content .support-service-heading{
+    font-weight: 500;
+    font-size: 34px;
+    color:var(--btn-color);
+    margin-bottom:7px;
+}
+.support-service h6{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+.support-service-content{
+    padding: 28px 23px 28px 24px;
+    text-align: center;
+    position: absolute;
+}
+.chat-icon-bg{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background-color: var(--btn-color);
+    border-radius: 50px;
+    right: -45px;
+    top: 355px;
+}
+.chat-icon{
+    padding:14.89px 16px 16.32px 16px;
+}
+nav{
+    margin-bottom: 50px;
+}
 /* Navbar End */
+
+/* Trusted Partner Start */
+.trusted-partner{
+    min-height: 144px;
+    background: rgba(161, 185, 211, 0.1);
+    margin-bottom: 119px;
+}
+.trusted-partner-content{
+    padding: 44px 40px 44px 66px;
+    display: flex;
+    align-items: center;
+    gap:52px;
+}
+.trusted-partner-border{
+    width: 51px;
+    height: 2px;
+    background: #D9A436;
+    border-radius: 100px;
+}
+.trusted-partner-content p{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #28303F;
+}
+.trusted-partner-items{
+    display: flex;
+    align-items: center;
+    gap:11px;
+}
+.trusted-partner-logo{
+    display: flex;
+    align-items: center;
+    gap:200px;
+}
+/* Trusted Partner End */
+
+/* Product Categories Start */
+.product-categories-heading-content{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.product-categories-label{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--product-categories-color);
+}
+.product-categories-subheading{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: var(--product-categories-color);
+    margin-bottom: 36px;
+}
+.microsoft-product{
+    width: 358.94px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.08);
+    border-radius: 10px;
+}
+.microsoft-product-content{
+    padding: 33px 34.94px 0px 33px;
+}
+.microsoft-product-content img{
+    margin-bottom: 14px;
+}
+.microsoft-product-heading{
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0.02em;
+    color: var(--product-categories-color);
+    margin-bottom: 15px;
+}
+.microsoft-product-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: var(--microsoft-product-color);
+    margin-bottom: 37px;
+}
+.microsoft-product-apps{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: var(--microsoft-product-color);
+    margin-bottom: 16px;
+}
+.microsoft-product-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.microsoft-product-logo{
+    margin-bottom: 35px;
+}
+.shop-now-btn{
+    background: #F6F8FB;
+    border-radius: 20px 20px 10px 10px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+.shop-now-btn p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--shop-now-btn);
+}
+.product-categories-content{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.left-direction-icon-content{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: var(--shop-now-btn);
+    border-radius: 50px;
+}
+.right-direction-icon-content{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: var(--shop-now-btn);
+    border-radius: 50px;
+}
+.left-direction-icon-content img{
+    position: absolute;
+    left: 6px;
+    top: 8px;
+}
+.right-direction-icon-content .right-direction-icon{
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    transform: rotate(-180deg);
+}
+.product-categories-items{
+    display: flex;
+    align-items: center;
+    gap:26px;
+    margin-bottom: 98px;
+}
+.know-more-heading{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #0A0A0A;
+    margin-bottom: 10px;
+}
+.know-more-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #808080;
+    margin-bottom: 26px;
+}
+.know-more-content{
+    text-align: center;
+    width: 572px;
+    margin: auto;
+}
+.explore-product-content{
+    display: flex;
+    align-items: center;
+    gap:13px;
+    justify-content: center;
+    margin-bottom: 157px;
+}
+.explore-product-content p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--shop-now-btn);
+}
+/* Product Categories End */
