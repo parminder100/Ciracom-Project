@@ -309,6 +309,7 @@ nav{
 }
 .microsoft-product-content{
     padding: 33px 34.94px 0px 33px;
+    position: relative;
 }
 .microsoft-product-content img{
     margin-bottom: 14px;
@@ -341,6 +342,17 @@ nav{
     align-items: center;
     gap: 10px;
 }
+.office365-product-list{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+.office365-product-list-row-second{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
 .microsoft-product-logo{
     margin-bottom: 35px;
 }
@@ -357,7 +369,7 @@ nav{
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: var(--shop-now-btn);
+    color: var(--btn-color);
 }
 .product-categories-content{
     display: flex;
@@ -368,14 +380,14 @@ nav{
     position: relative;
     width: 40px;
     height: 40px;
-    background: var(--shop-now-btn);
+    background: var(--btn-color);
     border-radius: 50px;
 }
 .right-direction-icon-content{
     position: relative;
     width: 40px;
     height: 40px;
-    background: var(--shop-now-btn);
+    background: var(--btn-color);
     border-radius: 50px;
 }
 .left-direction-icon-content img{
@@ -420,12 +432,148 @@ nav{
     align-items: center;
     gap:13px;
     justify-content: center;
-    margin-bottom: 157px;
 }
 .explore-product-content p{
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: var(--shop-now-btn);
+    color: var(--btn-color);
+}
+.microsoft-office365-circle{
+    position: absolute;
+    width: 25.34px;
+    height: 24px;
+    background: #EEFCFE;
+    border-radius: 50px;
+    right: 70px;
+    top: 72px;
+}
+.office365-circle{
+    position: absolute;
+    width: 13.72px;
+    height: 13px;
+    background: rgba(0, 0, 228, 0.1);
+    border-radius: 50px;
+    right: 17px;
+}
+.product-categories-container{
+    margin-bottom: 157px;
 }
 /* Product Categories End */
+
+/* Customer Success Stories Start */
+.customer-success-top-container{
+    width: 100%;
+    height: 69px;
+    background-color: #F6F8FB;
+}
+.customer-success-container{
+    background-color: var(--btn-color);
+}
+.customer-success-label-name{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    margin-bottom: 25px;
+}
+.customer-success-label-name p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.customer-success-heading{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 196px;
+    width: 443px;
+}
+.customer-success-left-column{
+    width: 50%;
+}
+.customer-success-right-column{
+    width: 50%;
+}
+.customer-success-dots.active-dot{
+    background-color: #D9A436;
+}
+.customer-success-dots{
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.4);
+}
+.customer-success-dots-content{
+    display: flex;
+    align-items: center;
+    gap:13px;
+}
+.customer-success-right-column-items{
+    display: flex;
+    align-items: baseline;
+    gap:90px;
+    margin-bottom: 10px;
+}
+.customer-success-right-column-items h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.customer-success-right-column-items p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.71);
+}
+.customer-success-row{
+    display: flex;
+    padding-top: 74px;
+    padding-bottom: 77px;
+}
+.customer-success-reviews{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 8px;
+    width: 523px;
+    margin-bottom: 27px;
+}
+.customer-success-reviews span{
+    color: #D9A436;
+}
+.client-name{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.client-designation{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.71);
+    margin-bottom: 26px;
+}
+.customer-stories-btn{
+    padding: 20px 30px;
+    background: #D9A436;
+    border:1px solid #D9A436;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 75%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* Customer Success Stories End */
