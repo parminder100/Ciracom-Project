@@ -23,7 +23,7 @@ header {
 .main-content {
     width: 100%;
     height: auto;
-    max-width: 1280px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .icon-content {
@@ -92,6 +92,7 @@ header {
 .navbar-content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 91px;
     margin-bottom: 98px;
 }
@@ -253,6 +254,7 @@ nav{
     display: flex;
     align-items: center;
     gap:52px;
+    justify-content: space-between;
 }
 .trusted-partner-border{
     width: 51px;
@@ -374,7 +376,7 @@ nav{
 .product-categories-content{
     display: flex;
     align-items: center;
-    gap:30px;
+    gap:70px;
 }
 .left-direction-icon-content{
     position: relative;
@@ -406,6 +408,7 @@ nav{
     align-items: center;
     gap:26px;
     margin-bottom: 98px;
+    justify-content: space-between;
 }
 .know-more-heading{
     font-weight: 600;
@@ -469,6 +472,7 @@ nav{
 }
 .customer-success-container{
     background-color: var(--btn-color);
+    margin-bottom: 120px;
 }
 .customer-success-label-name{
     display: flex;
@@ -577,3 +581,148 @@ nav{
     cursor: pointer;
 }
 /* Customer Success Stories End */
+
+/* Our Services Start */
+.services-heading{
+    margin-bottom: 25px;
+}
+.services-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #7D7D7D;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.calling-icon{
+    margin-bottom: 18.38px;
+}
+.it-management-block-heading{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color:var(--product-categories-color);
+    margin-bottom: 40px;
+}
+.tick-icon-content{
+    position: relative;
+    min-width: 15px;
+    height: 15px;
+    background: var(--btn-color);
+    border-radius: 50px;
+}
+.tick-icon-content img{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.it-management-block-content{
+    display: flex;
+    gap:10px;
+    margin-bottom: 15px;
+}
+.it-management-block-content p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: var(--microsoft-product-color);
+}
+.it-management-service-items{
+    padding: 29px 37px 24px 30px;
+}
+.it-management-service-block{
+    width: 318px;
+    background: #F6F8FB;
+    border-radius: 10px;
+}
+.it-management-items{
+    margin-bottom: 32px;
+}
+.it-management-know-more-btn{
+    display: flex;
+    align-items: center;
+    gap:13px;
+    justify-content: center;
+}
+.it-management-know-more-btn p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--btn-color);
+}
+.our-service-block{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.our-service-know-more{
+    color: var(--product-categories-color);
+}
+.our-service-content{
+    margin-bottom: 131px;
+}
+/* Our Services End */
+
+.process-plan-content{
+    margin-bottom: 123px;
+}
+.clouds-icon{
+    margin-bottom: 36.38px;
+}
+.process-plan-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #7D7D7D;
+    text-align: center;
+    margin-bottom: 106.38px;
+}
+.dooted-line-plan-second{
+    position: absolute;
+    top: 11px;
+    left: 134px;
+}
+.process-plan-block-content h1{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: var(--product-categories-color);
+    margin-bottom: 15px;
+}
+.process-plan-block-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--microsoft-product-color);
+}
+.process-plan-block-content{
+    position: relative;
+    width: 244px;
+}
+.dooted-line{
+    position: absolute;
+    top: 29px;
+    left: 163px;
+}
+.process-plan-step-content{
+    display: flex;
+    gap:192px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.process-plan-btn{
+    padding: 20px 30px;
+    background-color: var(--btn-color);
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    border-width: 0px;
+}
+.process-plan-btn-content{
+    text-align: center;
+}
