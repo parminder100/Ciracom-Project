@@ -666,6 +666,7 @@ nav{
 }
 /* Our Services End */
 
+/* Process Plan Start */
 .process-plan-content{
     margin-bottom: 123px;
 }
@@ -722,7 +723,163 @@ nav{
     line-height: 100%;
     color: #FFFFFF;
     border-width: 0px;
+    cursor: pointer;
 }
 .process-plan-btn-content{
     text-align: center;
 }
+/* Process Plan End */
+
+/* About Ciracom Start */
+.about-ciracom-bg{
+    background-image: url("images/about-bg.png");
+    background-repeat: no-repeat;
+    min-height: 655px;
+    background-size: cover;
+    position: relative;
+}
+.successful-cloud-migration-block{
+    border-radius: 10px;
+    width: 260px;
+    padding: 29.38px 28px 24px 28px;
+    background-color: var(--btn-color);
+    opacity: 0.7;
+    position: absolute;
+}
+.successful-cloud-number{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: 19.38px;
+}
+.successful-cloud-description{
+    font-size: 25px;
+    color: #A2AEBF;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.successful-cloud-migration-content{
+    padding-top: 88px;
+    height: 655px;
+    width: 57%;
+}
+.quality-customer{
+    top: 49%;
+    left: 13%;
+}
+.Technical-support-block{
+    left: 32%;
+    top: 20%;
+}
+.product-training{
+    left: 35%;
+    top: 56%;
+}
+.about-ciracom-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--microsoft-product-color);
+}
+.about-ciracom-heading{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.about-ciracom-title{
+    justify-content: left;
+}
+.about-ciracom-content{
+    padding: 45px 55px 39px 43px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.about-ciracom-block{
+    width: 662px;
+    opacity: 0.7;
+}
+.about-ciracom-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* About Ciracom End */
+
+/* Newsletter Start */
+.newsletter-content{
+    padding-bottom: 112px;
+}
+.newsletter-bg{
+    background: #F6F8FB;
+    min-height: 69px;
+    margin-bottom: 72px;
+}
+.newsletter-heading{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color:var(--product-categories-color);
+    margin-bottom: 25px;
+}
+.newsletter-left-column{
+    width: 423px;
+}
+.newsletter-right-column{
+    width: 658px;
+}
+.newsletter-right-content{
+    padding: 53px 57px 47px 51px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.08);
+    border-radius: 20px;
+}
+.newsletter-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-name-input{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px 70px 16px 26px;
+    margin-top: 19px;
+}
+.form-content{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 25px;
+}
+.input-label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--product-categories-color);
+}
+.first-name-input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.email-id-input{
+    width: -webkit-fill-available;
+}
+.email-id-input-content{
+    margin-bottom: 40px;
+}
+.subscribe-btn{
+    padding: 20px 43px;
+    border-radius: 100px;
+    background-color: var(--btn-color);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.subscribe-btn-content{
+    text-align: center;
+}
+/* Newsletter End */
