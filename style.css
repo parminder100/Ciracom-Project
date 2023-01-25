@@ -83,6 +83,7 @@ header {
     font-size: 16px;
     color: #ffffff;
     padding: 14px 31px;
+    cursor: pointer;
 }
 .navbar-right-col {
     display: flex;
@@ -116,6 +117,7 @@ header {
     font-size: 16px;
     color: #FFFFFF;
     border:1px solid var(--btn-color);
+    cursor: pointer;
 }
 .free-quote-content{
     display: flex;
@@ -254,7 +256,7 @@ nav{
     display: flex;
     align-items: center;
     gap:52px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .trusted-partner-border{
     width: 51px;
@@ -761,20 +763,21 @@ nav{
     margin-top: 10px;
 }
 .successful-cloud-migration-content{
+    position: relative;
     padding-top: 88px;
     height: 655px;
     width: 57%;
 }
 .quality-customer{
     top: 49%;
-    left: 13%;
+    left: 6%;
 }
 .Technical-support-block{
-    left: 32%;
+    left: 49%;
     top: 20%;
 }
 .product-training{
-    left: 35%;
+    left: 56%;
     top: 56%;
 }
 .about-ciracom-description{
