@@ -883,3 +883,204 @@ nav{
     text-align: center;
 }
 /* Newsletter End */
+
+/* Testimonial Start */
+.testimonial-content{
+    background-color: #F6F8FB;
+    padding-bottom: 87px;
+    padding-top: 87px;
+}
+.testimonial-description{
+    margin-bottom: 116px;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonial-left-direction-icon-content{
+    width: 40px;
+    height: 40px;
+    background-color: var(--btn-color);
+    position: relative;
+    border-radius: 50px;
+}
+.testimonial-right-direction-icon-content{
+    width: 40px;
+    height: 40px;
+    background-color: var(--btn-color);
+    position: relative;
+    border-radius: 50px;
+}
+.testimonial-left-direction-icon-content img{
+    position: absolute;
+    left: 7px;
+    top: 8px;
+}
+.testimonial-right-direction-icon-content img{
+    position: absolute;
+    left: 11px;
+    top: 7px;
+    transform: rotate(180deg);
+}
+.testimonial-block-content{
+    position: relative;
+    width: 558px;
+    height: 344px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-bottom: 31px;
+}
+.testimonial-block-items{
+    padding: 0px 62px 31px 62px;
+    height: inherit;
+    position: absolute;
+    width: -webkit-fill-available;
+    top: -17%;
+}
+.testimonial-block-image{
+    position: absolute;
+}
+.testimonial-block-player-outer-block{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    background-color: #FFFFFF;
+    left: 41%;
+    top: 55%;
+    border-radius: 50%;
+}
+.testimonial-block-player-inner-block{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--btn-color);
+    border-radius: 50%;
+}
+.testimonial-player-icon{
+    position: absolute;
+    left: 22px;
+    top: 18px;
+}
+.testimonial-quotes-icon{
+    position: absolute;
+    top: 76%;
+    margin-bottom: 10px;
+}
+.testimonial-block-description{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color:var(--btn-color);
+    position: absolute;
+    top:86%;
+    width: 470px;
+}
+.testimonial-block-items-content{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+/* Testimonial End */
+
+/* Footer Start */
+.footer-content{
+    background-color: var(--btn-color);
+    padding-top: 64px;
+    padding-bottom: 42px;
+}
+.ciracom-block-heading{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 125.3%;
+    color:#FFFFFF;
+    margin-bottom: 18px;
+}
+.ciracom-block-content{
+    width: 338px;
+}
+.ciracom-block-description{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 18px;
+}
+.ciracom-block-timing{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+.ciracom-payment-image-block{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.accredited-business-image{
+    width: 155.34px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    height: 31px;
+}
+.ciracom-solution-block{
+    width: 194px;
+}
+.ciracom-solution-heading{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.ciracom-solution-items{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #E7EDFA;
+    margin-bottom: 15px;
+}
+.footer-block-content{
+    display: flex;
+    align-items: baseline;
+    gap: 75px;
+    margin-bottom: 61px;
+}
+.ciracom-dashed-line{
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    margin-bottom: 34px;
+}
+.copyright{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.copyright-right-column{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(231, 237, 250, 0.7);
+    margin-bottom: 12px;
+}
+.footer-social-icons{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.footer-copyright-block{
+    display: flex;
+    align-items: center;
+    gap: 138px;
+    justify-content: space-between;
+}
+/* Footer End */
