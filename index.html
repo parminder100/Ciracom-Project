@@ -11,6 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
 </head>
 
 <body>
@@ -246,209 +254,204 @@
                 </div>
             </div> -->
             <div class="product-categories-items">
-                <div onclick="plusSlides(-1)" class="left-direction-icon-content">
-                    <img src="icons/direction-right.svg">
-                </div>
-                <div class="product-categories-content">
-                    <div class="microsoft-product mySlides fade">
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/microsoft-product-logo.png">
-                                <h1 class="microsoft-product-heading">Mircosoft 365</h1>
-                                <p class="microsoft-product-description">Cost-effective offerings can help empower your employees 
-                                    to not only work wherever, but however is best for 
-                                    your business. 
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="microsoft-product-list">
-                                    <img src="images/microsoft-product-image-1.png">
-                                    <img src="images/microsoft-product-image-2.png">
-                                    <img src="images/microsoft-product-image-3.png">
-                                    <img src="images/microsoft-product-image-4.png">
-                                    <img src="images/microsoft-product-image-5.png">
-                                </div>
-                                <div class="microsoft-product-list microsoft-product-logo">
-                                    <img src="images/microsoft-product-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <div>
-                                    <p>Show Now</p>
-                                </div>
-                                <div>
-                                    <img src="icons/maximize.svg">
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/office365-logo.png">
-                                <h1 class="microsoft-product-heading">Office 365</h1>
-                                <div class="microsoft-office365-circle"></div>
-                                <p class="microsoft-product-description">Office 365's empowered 
-                                    productivity suite is a sure-fire staple for your business's 
-                                    arsenal of vital software. Office 365 enables users to access 
-                                    documents anywhere.
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="office365-product-list">
-                                    <img src="images/office365-image-1.png">
-                                    <img src="images/office365-image-2.png">
-                                    <img src="images/office365-image-3.png">
-                                    <img src="images/office365-image-4.png">
-                                    <img src="images/office365-image-5.png">
-                                    <div class="office365-circle"></div>
-                                </div>
-                                <div class="office365-product-list-row-second microsoft-product-logo">
-                                    <img src="images/office365-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/visio-product-logo.png">
-                                <h1 class="microsoft-product-heading">VISIO</h1>
-                                <div class="microsoft-office365-circle"></div>
-                                <p class="microsoft-product-description">Visio delivers new 
-                                    innovation to data visualization for your business. 
-                                    With dozens of ready-to-use templates and thousands 
-                                    of customizable shapes.
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="office365-product-list">
-                                    <img src="images/office365-image-1.png">
-                                    <img src="images/office365-image-2.png">
-                                    <img src="images/office365-image-3.png">
-                                    <img src="images/office365-image-4.png">
-                                    <img src="images/office365-image-5.png">
-                                    <div class="office365-circle"></div>
-                                </div>
-                                <div class="office365-product-list-row-second microsoft-product-logo">
-                                    <img src="images/office365-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
+                <div
+                  class="product-categories-content owl-carousel owl-theme"
+                  id="owl-demo"
+                >
+                  <div class="microsoft-product-content">
+                    <div class="microsoft-product-items">
+                      <img src="images/microsoft-product-logo.png" />
+                      <h1 class="microsoft-product-heading">Mircosoft 365</h1>
+                      <p class="microsoft-product-description">
+                        Cost-effective offerings can help empower your employees to
+                        not only work wherever, but however is best for your business.
+                      </p>
+                      <p class="microsoft-product-apps">Some apps includes</p>
+                      <div class="microsoft-product-list">
+                        <img src="images/microsoft-product-image-1.png" />
+                        <img src="images/microsoft-product-image-2.png" />
+                        <img src="images/microsoft-product-image-3.png" />
+                        <img src="images/microsoft-product-image-4.png" />
+                        <img src="images/microsoft-product-image-5.png" />
+                      </div>
+                      <div class="microsoft-product-list microsoft-product-logo">
+                        <img src="images/microsoft-product-image-6.png" />
+                        <img src="images/microsoft-product-image-7.png" />
+                        <img src="images/microsoft-product-image-8.png" />
+                        <img src="images/microsoft-product-image-9.png" />
+                      </div>
                     </div>
-                    <div class="microsoft-product mySlides fade">
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/microsoft-product-logo.png">
-                                <h1 class="microsoft-product-heading">Mircosoft Teams</h1>
-                                <p class="microsoft-product-description">Cost-effective offerings can help empower your employees 
-                                    to not only work wherever, but however is best for 
-                                    your business. 
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="microsoft-product-list">
-                                    <img src="images/microsoft-product-image-1.png">
-                                    <img src="images/microsoft-product-image-2.png">
-                                    <img src="images/microsoft-product-image-3.png">
-                                    <img src="images/microsoft-product-image-4.png">
-                                    <img src="images/microsoft-product-image-5.png">
-                                </div>
-                                <div class="microsoft-product-list microsoft-product-logo">
-                                    <img src="images/microsoft-product-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/office365-logo.png">
-                                <h1 class="microsoft-product-heading">Microsoft Dynamics</h1>
-                                <div class="microsoft-office365-circle"></div>
-                                <p class="microsoft-product-description">Office 365's empowered 
-                                    productivity suite is a sure-fire staple for your business's 
-                                    arsenal of vital software. Office 365 enables users to access 
-                                    documents anywhere.
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="office365-product-list">
-                                    <img src="images/office365-image-1.png">
-                                    <img src="images/office365-image-2.png">
-                                    <img src="images/office365-image-3.png">
-                                    <img src="images/office365-image-4.png">
-                                    <img src="images/office365-image-5.png">
-                                    <div class="office365-circle"></div>
-                                </div>
-                                <div class="office365-product-list-row-second microsoft-product-logo">
-                                    <img src="images/office365-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/visio-product-logo.png">
-                                <h1 class="microsoft-product-heading">Microsoft Defender</h1>
-                                <div class="microsoft-office365-circle"></div>
-                                <p class="microsoft-product-description">Visio delivers new 
-                                    innovation to data visualization for your business. 
-                                    With dozens of ready-to-use templates and thousands 
-                                    of customizable shapes.
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="office365-product-list">
-                                    <img src="images/office365-image-1.png">
-                                    <img src="images/office365-image-2.png">
-                                    <img src="images/office365-image-3.png">
-                                    <img src="images/office365-image-4.png">
-                                    <img src="images/office365-image-5.png">
-                                    <div class="office365-circle"></div>
-                                </div>
-                                <div class="office365-product-list-row-second microsoft-product-logo">
-                                    <img src="images/office365-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
+                    <div class="shop-now-btn">
+                      <div>
+                        <p>Show Now</p>
+                      </div>
+                      <div>
+                        <img src="icons/maximize.svg" />
+                      </div>
                     </div>
+                  </div>
+                  <div class="microsoft-product-content">
+                    <div class="microsoft-product-items">
+                      <img src="images/office365-logo.png" />
+                      <h1 class="microsoft-product-heading">Office 365</h1>
+                      <div class="microsoft-office365-circle"></div>
+                      <p class="microsoft-product-description">
+                        Office 365's empowered productivity suite is a sure-fire
+                        staple for your business's arsenal of vital software. Office
+                        365 enables users to access documents anywhere.
+                      </p>
+                      <p class="microsoft-product-apps">Some apps includes</p>
+                      <div class="office365-product-list">
+                        <img src="images/office365-image-1.png" />
+                        <img src="images/office365-image-2.png" />
+                        <img src="images/office365-image-3.png" />
+                        <img src="images/office365-image-4.png" />
+                        <img src="images/office365-image-5.png" />
+                        <div class="office365-circle"></div>
+                      </div>
+                      <div
+                        class="office365-product-list-row-second microsoft-product-logo"
+                      >
+                        <img src="images/office365-image-6.png" />
+                        <img src="images/microsoft-product-image-7.png" />
+                        <img src="images/microsoft-product-image-8.png" />
+                        <img src="images/microsoft-product-image-9.png" />
+                      </div>
+                    </div>
+                    <div class="shop-now-btn">
+                      <p>Show Now</p>
+                      <img src="icons/maximize.svg" />
+                    </div>
+                  </div>
+                  <div class="microsoft-product-content">
+                    <div class="microsoft-product-items">
+                      <img src="images/visio-product-logo.png" />
+                      <h1 class="microsoft-product-heading">VISIO</h1>
+                      <div class="microsoft-office365-circle"></div>
+                      <p class="microsoft-product-description">
+                        Visio delivers new innovation to data visualization for your
+                        business. With dozens of ready-to-use templates and thousands
+                        of customizable shapes.
+                      </p>
+                      <p class="microsoft-product-apps">Some apps includes</p>
+                      <div class="office365-product-list">
+                        <img src="images/office365-image-1.png" />
+                        <img src="images/office365-image-2.png" />
+                        <img src="images/office365-image-3.png" />
+                        <img src="images/office365-image-4.png" />
+                        <img src="images/office365-image-5.png" />
+                        <div class="office365-circle"></div>
+                      </div>
+                      <div
+                        class="office365-product-list-row-second microsoft-product-logo"
+                      >
+                        <img src="images/office365-image-6.png" />
+                        <img src="images/microsoft-product-image-7.png" />
+                        <img src="images/microsoft-product-image-8.png" />
+                        <img src="images/microsoft-product-image-9.png" />
+                      </div>
+                    </div>
+                    <div class="shop-now-btn">
+                      <p>Show Now</p>
+                      <img src="icons/maximize.svg" />
+                    </div>
+                  </div>
+                  <div class="microsoft-product-content">
+                    <div class="microsoft-product-items">
+                      <img src="images/microsoft-product-logo.png" />
+                      <h1 class="microsoft-product-heading">Mircosoft Teams</h1>
+                      <p class="microsoft-product-description">
+                        Cost-effective offerings can help empower your employees to
+                        not only work wherever, but however is best for your business.
+                      </p>
+                      <p class="microsoft-product-apps">Some apps includes</p>
+                      <div class="microsoft-product-list">
+                        <img src="images/microsoft-product-image-1.png" />
+                        <img src="images/microsoft-product-image-2.png" />
+                        <img src="images/microsoft-product-image-3.png" />
+                        <img src="images/microsoft-product-image-4.png" />
+                        <img src="images/microsoft-product-image-5.png" />
+                      </div>
+                      <div class="microsoft-product-list microsoft-product-logo">
+                        <img src="images/microsoft-product-image-6.png" />
+                        <img src="images/microsoft-product-image-7.png" />
+                        <img src="images/microsoft-product-image-8.png" />
+                        <img src="images/microsoft-product-image-9.png" />
+                      </div>
+                    </div>
+                    <div class="shop-now-btn">
+                      <p>Show Now</p>
+                      <img src="icons/maximize.svg" />
+                    </div>
+                  </div>
+                  <div class="microsoft-product-content">
+                    <div class="microsoft-product-items">
+                      <img src="images/office365-logo.png" />
+                      <h1 class="microsoft-product-heading">Microsoft Dynamics</h1>
+                      <div class="microsoft-office365-circle"></div>
+                      <p class="microsoft-product-description">
+                        Office 365's empowered productivity suite is a sure-fire
+                        staple for your business's arsenal of vital software. Office
+                        365 enables users to access documents anywhere.
+                      </p>
+                      <p class="microsoft-product-apps">Some apps includes</p>
+                      <div class="office365-product-list">
+                        <img src="images/office365-image-1.png" />
+                        <img src="images/office365-image-2.png" />
+                        <img src="images/office365-image-3.png" />
+                        <img src="images/office365-image-4.png" />
+                        <img src="images/office365-image-5.png" />
+                        <div class="office365-circle"></div>
+                      </div>
+                      <div
+                        class="office365-product-list-row-second microsoft-product-logo"
+                      >
+                        <img src="images/office365-image-6.png" />
+                        <img src="images/microsoft-product-image-7.png" />
+                        <img src="images/microsoft-product-image-8.png" />
+                        <img src="images/microsoft-product-image-9.png" />
+                      </div>
+                    </div>
+                    <div class="shop-now-btn">
+                      <p>Show Now</p>
+                      <img src="icons/maximize.svg" />
+                    </div>
+                  </div>
+                  <div class="microsoft-product-content">
+                    <div class="microsoft-product-items">
+                      <img src="images/visio-product-logo.png" />
+                      <h1 class="microsoft-product-heading">Microsoft Defender</h1>
+                      <div class="microsoft-office365-circle"></div>
+                      <p class="microsoft-product-description">
+                        Visio delivers new innovation to data visualization for your
+                        business. With dozens of ready-to-use templates and thousands
+                        of customizable shapes.
+                      </p>
+                      <p class="microsoft-product-apps">Some apps includes</p>
+                      <div class="office365-product-list">
+                        <img src="images/office365-image-1.png" />
+                        <img src="images/office365-image-2.png" />
+                        <img src="images/office365-image-3.png" />
+                        <img src="images/office365-image-4.png" />
+                        <img src="images/office365-image-5.png" />
+                        <div class="office365-circle"></div>
+                      </div>
+                      <div
+                        class="office365-product-list-row-second microsoft-product-logo"
+                      >
+                        <img src="images/office365-image-6.png" />
+                        <img src="images/microsoft-product-image-7.png" />
+                        <img src="images/microsoft-product-image-8.png" />
+                        <img src="images/microsoft-product-image-9.png" />
+                      </div>
+                    </div>
+                    <div class="shop-now-btn">
+                      <p>Show Now</p>
+                      <img src="icons/maximize.svg" />
+                    </div>
+                  </div>
                 </div>
-                <div onclick="plusSlides(1)" class="right-direction-icon-content">
-                    <img class="right-direction-icon" src="icons/direction-right.svg">
-                </div>
-            </div>
+              </div>
             <div class="know-more-content">
                 <h1 class="know-more-heading">Want to know more ?</h1>
                 <p class="know-more-description">We can help your modern workplace run smoothly with 
@@ -475,7 +478,15 @@
                         <p>Customer Success STORIES</p>
                         <div class="trusted-partner-border"></div>
                     </div>
-                    <h1 class="customer-success-heading">Check out these success stories from our customers</h1>
+                    <div class="customer-slides fade">
+                        <h1 class="customer-success-heading">Check out these success stories from our customers</h1>
+                    </div>
+                    <div class="customer-slides fade">
+                        <h1 class="customer-success-heading">Bryan Check out his success stories from our customers</h1>
+                    </div>
+                    <div class="customer-slides fade">
+                        <h1 class="customer-success-heading">Naveen Check out his success stories from our customers</h1>
+                    </div>
                     <div class="customer-success-dots-content">
                         <div class="customer-success-dots active-dot"></div>
                         <div class="customer-success-dots"></div>
@@ -736,9 +747,9 @@
                         <p class="successful-cloud-description">Technical Support & phone calls</p>
                     </div>
                     <div class="successful-cloud-migration-block product-training">
-                        <img src="icons/call love.svg">
-                        <h1 class="successful-cloud-number">1,26,844 +</h1>
-                        <p class="successful-cloud-description">Technical Support & phone calls</p>
+                        <img src="icons/testimonial globe.svg">
+                        <h1 class="successful-cloud-number">700 hours</h1>
+                        <p class="successful-cloud-description">Dedicated Product Training</p>
                     </div>
                 </div>
                 <div class="about-ciracom-block">
@@ -817,42 +828,174 @@
                 institutions to consulting firms and more, we partner with organizations 
                 to digitally transform their business.
             </p>
+            <!-- <div class="testimonial-block-items-content">
+                <div class="testimonial-left-direction-icon-content" onclick="plusSlidesTestimonial(-1)">
+                    <img src="icons/direction-right.svg">
+                </div>
+                <div class="SlidesTestimonial fade">
+                    <div class="testimonial-block-content">
+                        <div class="testimonial-block-items">
+                            <img class="testimonial-block-image" src="images/testimonial-image-1.png">
+                            <div class="testimonial-block-player-outer-block">
+                                <div class="testimonial-block-player-inner-block">
+                                    <img class="testimonial-player-icon" src="icons/Testimonial player icon.svg">
+                                </div>
+                            </div>
+                            <img class="testimonial-quotes-icon" src="images/Testimonial-quotes.png">
+                            <p class="testimonial-block-description">We needed outsourced assistance we could trust implicitly. 
+                                Ciracom Cloud has provided that, without a doubt.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-content">
+                        <div class="testimonial-block-items">
+                            <img class="testimonial-block-image" src="images/testimonial-image-2.png">
+                            <div class="testimonial-block-player-outer-block">
+                                <div class="testimonial-block-player-inner-block">
+                                    <img class="testimonial-player-icon" src="icons/Testimonial player icon.svg">
+                                </div>
+                            </div>
+                            <img class="testimonial-quotes-icon" src="images/Testimonial-quotes.png">
+                            <p class="testimonial-block-description">We needed outsourced assistance we could trust implicitly. 
+                                Ciracom Cloud has provided that, without a doubt.”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="SlidesTestimonial fade">
+                    <div class="testimonial-block-content">
+                        <div class="testimonial-block-items">
+                            <img class="testimonial-block-image" src="images/testimonial-image-1.png">
+                            <div class="testimonial-block-player-outer-block">
+                                <div class="testimonial-block-player-inner-block">
+                                    <img class="testimonial-player-icon" src="icons/Testimonial player icon.svg">
+                                </div>
+                            </div>
+                            <img class="testimonial-quotes-icon" src="images/Testimonial-quotes.png">
+                            <p class="testimonial-block-description">Impact needed outsourced assistance we could trust implicitly. 
+                                Ciracom Cloud has provided that, without a doubt.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-content">
+                        <div class="testimonial-block-items">
+                            <img class="testimonial-block-image" src="images/testimonial-image-2.png">
+                            <div class="testimonial-block-player-outer-block">
+                                <div class="testimonial-block-player-inner-block">
+                                    <img class="testimonial-player-icon" src="icons/Testimonial player icon.svg">
+                                </div>
+                            </div>
+                            <img class="testimonial-quotes-icon" src="images/Testimonial-quotes.png">
+                            <p class="testimonial-block-description">Erin needed outsourced assistance we could trust implicitly. 
+                                Ciracom Cloud has provided that, without a doubt.”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-right-direction-icon-content" onclick="plusSlidesTestimonial(1)">
+                    <img src="icons/direction-right.svg">
+                </div>
+            </div> -->
             <div class="testimonial-block-items-content">
-                <div class="testimonial-left-direction-icon-content">
-                    <img src="icons/direction-right.svg">
-                </div>
-                <div class="testimonial-block-content">
+                <div class="SlidesTestimonial fade owl-carousel owl-theme" id="owl-testimonial-demo" >
+                  <div class="testimonial-block-content">
                     <div class="testimonial-block-items">
-                        <img class="testimonial-block-image" src="images/testimonial-image-1.png">
-                        <div class="testimonial-block-player-outer-block">
-                            <div class="testimonial-block-player-inner-block">
-                                <img class="testimonial-player-icon" src="icons/Testimonial player icon.svg">
-                            </div>
+                      <img
+                        class="testimonial-block-image"
+                        src="images/testimonial-image-1.png"
+                      />
+                      <div class="testimonial-block-player-outer-block">
+                        <div class="testimonial-block-player-inner-block">
+                          <img
+                            class="testimonial-player-icon"
+                            src="icons/Testimonial player icon.svg"
+                          />
                         </div>
-                        <img class="testimonial-quotes-icon" src="images/Testimonial-quotes.png">
-                        <p class="testimonial-block-description">We needed outsourced assistance we could trust implicitly. 
-                            Ciracom Cloud has provided that, without a doubt.”
-                        </p>
+                      </div>
+                      <img
+                        class="testimonial-quotes-icon"
+                        src="images/Testimonial-quotes.png"
+                      />
+                      <p class="testimonial-block-description">
+                        We needed outsourced assistance we could trust implicitly.
+                        Ciracom Cloud has provided that, without a doubt.”
+                      </p>
                     </div>
-                </div>
-                <div class="testimonial-block-content">
+                  </div>
+                  <div class="testimonial-block-content">
                     <div class="testimonial-block-items">
-                        <img class="testimonial-block-image" src="images/testimonial-image-2.png">
-                        <div class="testimonial-block-player-outer-block">
-                            <div class="testimonial-block-player-inner-block">
-                                <img class="testimonial-player-icon" src="icons/Testimonial player icon.svg">
-                            </div>
+                      <img
+                        class="testimonial-block-image"
+                        src="images/testimonial-image-2.png"
+                      />
+                      <div class="testimonial-block-player-outer-block">
+                        <div class="testimonial-block-player-inner-block">
+                          <img
+                            class="testimonial-player-icon"
+                            src="icons/Testimonial player icon.svg"
+                          />
                         </div>
-                        <img class="testimonial-quotes-icon" src="images/Testimonial-quotes.png">
-                        <p class="testimonial-block-description">We needed outsourced assistance we could trust implicitly. 
-                            Ciracom Cloud has provided that, without a doubt.”
-                        </p>
+                      </div>
+                      <img
+                        class="testimonial-quotes-icon"
+                        src="images/Testimonial-quotes.png"
+                      />
+                      <p class="testimonial-block-description">
+                        We needed outsourced assistance we could trust implicitly.
+                        Ciracom Cloud has provided that, without a doubt.”
+                      </p>
                     </div>
+                  </div>
+                  <div class="testimonial-block-content">
+                    <div class="testimonial-block-items">
+                      <img
+                        class="testimonial-block-image"
+                        src="images/testimonial-image-1.png"
+                      />
+                      <div class="testimonial-block-player-outer-block">
+                        <div class="testimonial-block-player-inner-block">
+                          <img
+                            class="testimonial-player-icon"
+                            src="icons/Testimonial player icon.svg"
+                          />
+                        </div>
+                      </div>
+                      <img
+                        class="testimonial-quotes-icon"
+                        src="images/Testimonial-quotes.png"
+                      />
+                      <p class="testimonial-block-description">
+                        We needed outsourced assistance we could trust implicitly.
+                        Ciracom Cloud has provided that, without a doubt.”
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testimonial-block-content">
+                    <div class="testimonial-block-items">
+                      <img
+                        class="testimonial-block-image"
+                        src="images/testimonial-image-2.png"
+                      />
+                      <div class="testimonial-block-player-outer-block">
+                        <div class="testimonial-block-player-inner-block">
+                          <img
+                            class="testimonial-player-icon"
+                            src="icons/Testimonial player icon.svg"
+                          />
+                        </div>
+                      </div>
+                      <img
+                        class="testimonial-quotes-icon"
+                        src="images/Testimonial-quotes.png"
+                      />
+                      <p class="testimonial-block-description">
+                        We needed outsourced assistance we could trust implicitly.
+                        Ciracom Cloud has provided that, without a doubt.”
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="testimonial-right-direction-icon-content">
-                    <img src="icons/direction-right.svg">
-                </div>
-            </div>
+              </div>
         </div>
     </section>
     <!-- Testimonial End -->
@@ -937,249 +1080,10 @@
         </div>
     </footer>
     <!-- Footer End -->
-
-    <!-- <section>
-        <div class="slideshow-container">
-
-            <div class="mySlides fade">
-                <div>
-                    <div class="numbertext">1 / 3</div>
-                    <img src="images/download.jpg" style="width:100%">
-                    <div class="text">Caption Text</div>
-                </div>
-                <div>
-                    <div class="numbertext">2 / 3</div>
-                    <img src="images/download (1).jpg" style="width:100%">
-                    <div class="text">Caption Two</div>
-                </div>
-                <div>
-                    <div class="numbertext">3 / 3</div>
-                        <img src="images/download (2).jpg" style="width:100%">
-                        <div class="text">Caption Three</div>
-                    </div>
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <img src="images/download (1).jpg" style="width:100%">
-              <div class="text">Caption Two</div>
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
-              <img src="images/download (2).jpg" style="width:100%">
-              <div class="text">Caption Three</div>
-            </div>
-            
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-            
-            </div>
-    </section> -->
-    <!-- <section>
-        <div class="main-content">
-            <div class="product-categories-items">
-                <div onclick="plusSlides(-1)" class="left-direction-icon-content">
-                    <img src="icons/direction-right.svg">
-                </div>
-                <div class="product-categories-content">
-                    <div class="microsoft-product mySlides fade">
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/microsoft-product-logo.png">
-                                <h1 class="microsoft-product-heading">Mircosoft 365</h1>
-                                <p class="microsoft-product-description">Cost-effective offerings can help empower your employees 
-                                    to not only work wherever, but however is best for 
-                                    your business. 
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="microsoft-product-list">
-                                    <img src="images/microsoft-product-image-1.png">
-                                    <img src="images/microsoft-product-image-2.png">
-                                    <img src="images/microsoft-product-image-3.png">
-                                    <img src="images/microsoft-product-image-4.png">
-                                    <img src="images/microsoft-product-image-5.png">
-                                </div>
-                                <div class="microsoft-product-list microsoft-product-logo">
-                                    <img src="images/microsoft-product-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/office365-logo.png">
-                                <h1 class="microsoft-product-heading">Office 365</h1>
-                                <div class="microsoft-office365-circle"></div>
-                                <p class="microsoft-product-description">Office 365's empowered 
-                                    productivity suite is a sure-fire staple for your business's 
-                                    arsenal of vital software. Office 365 enables users to access 
-                                    documents anywhere.
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="office365-product-list">
-                                    <img src="images/office365-image-1.png">
-                                    <img src="images/office365-image-2.png">
-                                    <img src="images/office365-image-3.png">
-                                    <img src="images/office365-image-4.png">
-                                    <img src="images/office365-image-5.png">
-                                    <div class="office365-circle"></div>
-                                </div>
-                                <div class="office365-product-list-row-second microsoft-product-logo">
-                                    <img src="images/office365-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/visio-product-logo.png">
-                                <h1 class="microsoft-product-heading">VISIO</h1>
-                                <div class="microsoft-office365-circle"></div>
-                                <p class="microsoft-product-description">Visio delivers new 
-                                    innovation to data visualization for your business. 
-                                    With dozens of ready-to-use templates and thousands 
-                                    of customizable shapes.
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="office365-product-list">
-                                    <img src="images/office365-image-1.png">
-                                    <img src="images/office365-image-2.png">
-                                    <img src="images/office365-image-3.png">
-                                    <img src="images/office365-image-4.png">
-                                    <img src="images/office365-image-5.png">
-                                    <div class="office365-circle"></div>
-                                </div>
-                                <div class="office365-product-list-row-second microsoft-product-logo">
-                                    <img src="images/office365-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="microsoft-product mySlides fade">
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/microsoft-product-logo.png">
-                                <h1 class="microsoft-product-heading">Mircosoft 365</h1>
-                                <p class="microsoft-product-description">Cost-effective offerings can help empower your employees 
-                                    to not only work wherever, but however is best for 
-                                    your business. 
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="microsoft-product-list">
-                                    <img src="images/microsoft-product-image-1.png">
-                                    <img src="images/microsoft-product-image-2.png">
-                                    <img src="images/microsoft-product-image-3.png">
-                                    <img src="images/microsoft-product-image-4.png">
-                                    <img src="images/microsoft-product-image-5.png">
-                                </div>
-                                <div class="microsoft-product-list microsoft-product-logo">
-                                    <img src="images/microsoft-product-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/office365-logo.png">
-                                <h1 class="microsoft-product-heading">Office 365</h1>
-                                <div class="microsoft-office365-circle"></div>
-                                <p class="microsoft-product-description">Office 365's empowered 
-                                    productivity suite is a sure-fire staple for your business's 
-                                    arsenal of vital software. Office 365 enables users to access 
-                                    documents anywhere.
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="office365-product-list">
-                                    <img src="images/office365-image-1.png">
-                                    <img src="images/office365-image-2.png">
-                                    <img src="images/office365-image-3.png">
-                                    <img src="images/office365-image-4.png">
-                                    <img src="images/office365-image-5.png">
-                                    <div class="office365-circle"></div>
-                                </div>
-                                <div class="office365-product-list-row-second microsoft-product-logo">
-                                    <img src="images/office365-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
-                        <div class="microsoft-product-content">
-                            <div class="microsoft-product-items">
-                                <img src="images/visio-product-logo.png">
-                                <h1 class="microsoft-product-heading">VISIO</h1>
-                                <div class="microsoft-office365-circle"></div>
-                                <p class="microsoft-product-description">Visio delivers new 
-                                    innovation to data visualization for your business. 
-                                    With dozens of ready-to-use templates and thousands 
-                                    of customizable shapes.
-                                </p>
-                                <p class="microsoft-product-apps">Some apps includes</p>
-                                <div class="office365-product-list">
-                                    <img src="images/office365-image-1.png">
-                                    <img src="images/office365-image-2.png">
-                                    <img src="images/office365-image-3.png">
-                                    <img src="images/office365-image-4.png">
-                                    <img src="images/office365-image-5.png">
-                                    <div class="office365-circle"></div>
-                                </div>
-                                <div class="office365-product-list-row-second microsoft-product-logo">
-                                    <img src="images/office365-image-6.png">
-                                    <img src="images/microsoft-product-image-7.png">
-                                    <img src="images/microsoft-product-image-8.png">
-                                    <img src="images/microsoft-product-image-9.png">
-                                </div>
-                            </div>
-                            <div class="shop-now-btn">
-                                <p>Show Now</p>
-                                <img src="icons/maximize.svg">
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div onclick="plusSlides(1)" class="right-direction-icon-content">
-                    <img class="right-direction-icon" src="icons/direction-right.svg">
-                </div>
-            </div>
-        </div>
-    </section> -->
 </body>
-<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="js/product-categories-section.js"></script>
+<script src="js/testimonial-section.js"></script>
+<script src="js/customer-stories-section.js"></script>
 </html>
