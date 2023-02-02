@@ -14,7 +14,7 @@ $(document).ready(function () {
       "<div class='nav-btn prev-slide'></div>",
       "<div class='nav-btn next-slide'></div>",
     ],
-    margin: 10,
+    margin: -160,
   });
 
   $(".next").click(function () {

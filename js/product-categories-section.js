@@ -11,7 +11,7 @@ $(document).ready(function () {
     // loop: true,
     nav: true,
     navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
-    margin: 10,
+    margin: -120,
   });
 
   $(".next").click(function () {
